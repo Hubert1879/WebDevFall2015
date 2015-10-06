@@ -1,0 +1,46 @@
+<html>
+<head>
+	<title>About me page</title>
+</head>
+<body>
+	<h1>About me page</h1>
+<h2>About me page</h2>
+<h3>About me page</h3>
+	<ul>
+		<li>list item</li>
+		<li>list item</li>
+	</ul>
+
+	<ol>
+		<li>list item</li>
+		<li>list item</li>
+	</ol>
+
+<form id="sayHi">
+	<input id="firstname" type="text" name="fname">
+	<input type="submit" value="submit">  
+</form>
+
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<script type="text/javascript">
+	
+	$(function(){
+		$("#sayHi").on("submit", function(e)  {
+
+			e.preventDefault();
+
+			var firstName = $("#firstname").val();
+
+			alert("Stop eating ice cream!!!, " + firstName);
+
+		});
+
+	});
+
+</script>
+
+
+
+</body>
+</html>
