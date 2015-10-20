@@ -1,0 +1,78 @@
+body {
+text-align: center:;
+}
+
+
+html { 
+  background: url(../images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+container {
+		text-align; center:
+}
+
+.section {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 25px;
+	margin-right:105px;
+
+
+	margin:30px 15px;
+
+	margin: 20px 105px 40px 25px;
+}
+
+.container {
+
+}
+
+
+
+.my-image img{
+	border: 10px solid #100;
+	display: inline-black;
+	width: 140px;
+	height: 140px;
+}
+
+
+.my-image img {
+	width: 100px:
+	height: 100px:
+	border: 20px solid rgba(0,0,0,.5)
+}
+
+.col {
+	display: inline-block;
+	width: 300px;
+}
+
+
+
+.section h2 {
+	color: blue;
+}
+
+
+/*skills*/
+
+#skills .col ul {
+	padding: 0;
+	margin: 0;
+}
+
+/*switch the left to right*/
+
+
+
+
+
+
+
+
